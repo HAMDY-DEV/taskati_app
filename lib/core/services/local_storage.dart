@@ -9,7 +9,7 @@ class AppLocalStorage {
     box.put(key, value);
   }
 
-  static getCachData({required String key}) {
+  static dynamic getCachData({required String key}) {
     return box.get(key);
   }
 

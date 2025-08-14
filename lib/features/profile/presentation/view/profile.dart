@@ -101,7 +101,7 @@ class _ProfileViewState extends State<ProfileView> {
                         },
                         child: CircleAvatar(
                           radius: 15,
-                          backgroundColor: theme.background,
+                          backgroundColor: theme.surface,
                           foregroundColor: theme.primary,
                           child: Icon(
                             Icons.camera_alt,
@@ -138,7 +138,7 @@ class _ProfileViewState extends State<ProfileView> {
                     showModalBottomSheet(
                       isScrollControlled: true,
                       context: context,
-                      backgroundColor: theme.background,
+                      backgroundColor: theme.surface,
                       builder: (context) {
                         return Padding(
                           padding: EdgeInsets.only(
